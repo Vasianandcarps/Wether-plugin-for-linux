@@ -10,6 +10,7 @@ You can view the recorded weather forecast using the command:
 ```$ cat rx_poc.log```
 # Change-place
 To change the weather location, there are two methods.
+
 **First one**:
 - Delete the file `place.txt` with command: ```rm place.txt```
 - Then rerun `weather.sh` with the command: ```./weather.sh```
