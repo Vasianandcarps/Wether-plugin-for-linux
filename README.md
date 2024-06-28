@@ -1,5 +1,6 @@
 # Wether-plugin-for-linux
 Wether plugin which writes wether from wttr.in in file. The project is created as an application to be executed using Linux command line. It serves as a useful example of creating a working .sh file. 
+![image](https://github.com/Vasianandcarps/Wether-plugin-for-linux-/assets/90087480/87215665-9e38-4708-a2f9-14228c941f24)
 # Start-plugin
 To start working with the project, you need to open a Linux terminal and navigate to the folder where the weather.sh file is saved using the cd command. You can also open the folder directly in the terminal. After that, you need to grant execution permissions to weather.sh. This is done with the command: 
 ```$ chmod u+x weather.sh```
@@ -23,3 +24,4 @@ To set up the automatic execution of `weather.sh`, you need to specify the locat
 ```. Then, create a cron job with the following entry: ```0 10 * * * /oath/to/weather.sh```. This entry means that the script will run every day at 10 AM. Save and exit the editor. For instance, if you're using nano as the editor, you can save by pressing Ctrl + O, then Enter, and exit with Ctrl + X.
 
 To check the scheduled script, you need to write `crontab -l`, and the scheduled actions will be listed.
+
