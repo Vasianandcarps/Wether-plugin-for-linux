@@ -19,3 +19,7 @@ To change the weather location, there are two methods.
 - Find or create the file `place.txt` and change its contents to the country or city for which you want to get the weather.
 
 # Start-automatically
+To set up the automatic execution of `weather.sh`, you need to specify the location in the `place.txt` file or by running the script.Open the crontab editor ```crontab -e
+```. Then, create a cron job with the following entry: ```0 10 * * * /oath/to/weather.sh```. This entry means that the script will run every day at 10 AM. Save and exit the editor. For instance, if you're using nano as the editor, you can save by pressing Ctrl + O, then Enter, and exit with Ctrl + X.
+
+To check the scheduled script, you need to write `crontab -l`, and the scheduled actions will be listed.
